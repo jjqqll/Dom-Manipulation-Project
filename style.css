@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+    position: relative;
+    top: 10px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    top: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: .5em 1em;
+    letter-spacing: .1em;
+}
+
+div.container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  border: 1px dotted gray;
+  position: relative;
+  top: 50px;
+  left: 420px;
+  grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+  grid-gap: 1px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.box {
+  background-color: yellow;
+  border: 1px solid #bae6e8;
+  border-radius: 3px;
+}
